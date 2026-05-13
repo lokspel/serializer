@@ -34,7 +34,7 @@ Add the dependency:
 - Gradle (build.gradle):
    ```groovy
    dependencies {
-     implementation("com.github.lokspel:serializer:1.1.1")
+     implementation("com.github.FreeForFive:serializer:1.1.1")
    }
    ```
 
