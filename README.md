@@ -1,4 +1,4 @@
-<img src="https://elytrium.net/src/img/elytrium.webp" alt="Elytrium" align="right">
+[![](https://jitpack.io/v/lokspel/serializer.svg)](https://jitpack.io/#lokspel/serializer)
 
 # Elytrium Java Serializer
 
@@ -17,22 +17,24 @@ Java Library to (de-)serialize data in various formats (e.g. JSON, YAML)
 
 ### Setup
 
-Elytrium Java Serializer is uploaded to the Maven Central repository, so you can just add it as a dependency to your maven or gradle project.
+Add it in your root settings.gradle at the end of repositories:
 
-- Maven (pom.xml):
-   ```xml
-   <dependencies>
-     <dependency>
-       <groupId>net.elytrium</groupId>
-       <artifactId>serializer</artifactId>
-       <version>1.1.1</version>
-     </dependency>
-   </dependencies>
-   ```
+```gradle
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
+
+Add the dependency:
+
 - Gradle (build.gradle):
    ```groovy
    dependencies {
-     implementation("net.elytrium:serializer:1.1.1")
+     implementation("com.github.lokspel:serializer:1.1.1")
    }
    ```
 
