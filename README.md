@@ -1,4 +1,4 @@
-[![](https://jitpack.io/v/lokspel/serializer.svg)](https://jitpack.io/#lokspel/serializer)
+[![](https://jitpack.io/v/FreeForFive/serializer.svg)](https://jitpack.io/#FreeForFive/serializer)
 
 # Elytrium Java Serializer
 
