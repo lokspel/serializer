@@ -9,7 +9,7 @@ plugins() {
   id("maven-publish")
 }
 
-group = "com.github.lokspel"
+group = "com.github.FreeForFive"
 version = "1.1.1"
 
 compileJava() {
@@ -91,7 +91,7 @@ publishing() {
     pom() {
       name = "Elytrium Java Serializer"
       description = "Java Library to (de-)serialize data in various formats (e.g. JSON, YAML)"
-      url = "https://github.com/lokspel/serializer"
+      url = "https://github.com/FreeForFive/serializer"
       licenses() {
         license() {
           name = "GNU Lesser General Public License v3.0"
@@ -110,9 +110,9 @@ publishing() {
         }
       }
       scm() {
-        connection = "scm:git:git://github.com/lokspel/serializer.git"
-        developerConnection = "scm:git:ssh://github.com/lokspel/serializer.git"
-        url = "https://github.com/lokspel/serializer"
+        connection = "scm:git:git://github.com/FreeForFive/serializer.git"
+        developerConnection = "scm:git:ssh://github.com/FreeForFive/serializer.git"
+        url = "https://github.com/FreeForFive/serializer"
       }
     }
 
